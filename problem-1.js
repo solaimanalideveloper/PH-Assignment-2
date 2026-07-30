@@ -13,4 +13,4 @@ function matchWinner(teamAGoals, teamBGoals) {
     return "Draw";
   }
 }
-console.log(matchWinner(4,6))
+console.log(matchWinner(-4,6))

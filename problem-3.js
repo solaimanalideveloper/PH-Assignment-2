@@ -1,0 +1,3 @@
+function calculateAiCost(tokensUsed) {
+    
+}
