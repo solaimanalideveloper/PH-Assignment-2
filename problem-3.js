@@ -1,5 +1,5 @@
 function calculateAiCost(tokensUsed) {
-  if (tokensUsed < 0 || typeof tokensUsed !== "number") {
+  if (tokensUsed < 0 || (typeof (tokensUsed) !== "number")) {
     return "Invalid";
   } else if (tokensUsed >= 500) {
     let dailyFixToken = tokensUsed - 500;
